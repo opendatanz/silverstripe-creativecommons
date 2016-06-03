@@ -1,6 +1,7 @@
 {
 	"name": "opendatanz/silverstripe-creativecommons",
 	"description": "Adds the ability to license image and page content under Creative Commons licences in SilverStripe CMS",
+	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "CMS", "Creative Commons", "licensing"],
 	"license": "BSD-3-Clause",
 	"minimum-stability": "dev"
