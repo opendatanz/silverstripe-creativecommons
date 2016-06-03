@@ -25,7 +25,9 @@ See [License](license.md)
 ## TODO
  - More Creative Commons API integration
  - Licensing of images and files (including the rdfa tags)
- - A way to override the default CC text in case you need to add extra disclaimers.
+ - A way to override the default CC text in case you need to add extra disclaimers
+ - Report to show the CC licenced content, images and files
+ 
 
 ## Maintainers
  * Cam Findlay <cam@camfindlay.com>
