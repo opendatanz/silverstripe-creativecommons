@@ -1,0 +1,9 @@
+---
+Name: creativecommons
+---
+SiteConfig:
+  extensions:
+    - CreativeCommonsExtension
+SiteTree:
+  extensions:
+    - CreativeCommonsExtension
