@@ -27,9 +27,10 @@ class CreativeCommonsExtension extends DataExtension {
 		}
 
 		$licence_url = $this->owner->config()->get('api_url').$this->owner->config()->get('api_version').'/details?license-uri='.$licence;
+		$expiry = 7 * (24 * 60 * 60);
+		$request = RestfulService::create($licence_url, $expiry)->request()->getBody();
 
-		$request = RestfulService::create($licence_url, 'GET')->request()->getBody();
-		
+
 			$pattern = "/<html ?.*>(.*)<\/html>/";
 			preg_match($pattern, $request, $matches);
 			if($matches) {
