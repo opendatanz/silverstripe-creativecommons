@@ -27,7 +27,7 @@ See [License](license.md)
  - Licensing of images and files (including the rdfa tags)
  - A way to override the default CC text in case you need to add extra disclaimers
  - Report to show the CC licenced content, images and files
- 
+ - Make the licence selection in Settings question based from the CC API (keep the per page overrides as specific licences based on jurisdiction selected in Settings).
 
 ## Maintainers
  * Cam Findlay <cam@camfindlay.com>
